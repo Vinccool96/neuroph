@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8846e01-254c-4cfa-bb33-93606344ca0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/RecommenderNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/art/ART1CompetitiveNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/art/ART1Learning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/art/ART1Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/art/ARTF2Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/AutoTrainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/RunExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/TrainingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/TrainingSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/TrainingStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/autotrain/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/AbstractTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/BackPropBenchmarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/BackpropBenchmarksExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/BackpropagationSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/BackpropagationTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/ExportUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/MomentumTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/QuickpropagationTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/ResilientTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/TrainingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/TrainingSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/TrainingSettingsGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/bpbench/TrainingStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/ExampleNetworXOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Graphml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/GraphmlExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/XMLAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/XMLElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/graphml/XMLHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/learning/CrossEntropyError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/learning/SoftMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/licenceplaterecognition/BinaryOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/licenceplaterecognition/OcrDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/MatrixInputLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/MatrixLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/MatrixMlpLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/MatrixMomentumBackpropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/MatrixMultiLayerPerceptron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/TestMatrixMLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/matrixmlp/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/model/errorestimation/Bootstrapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/model/modelselection/MultilayerPerceptronOptimazer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/model/sampling/AbstractSampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/model/sampling/RandomSamplingWithRepetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/model/sampling/RandomSamplingWithoutRepetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/GRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/LSTM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/RNN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/bptt/BackPropagationThroughTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/bptt/GRUBackPropagationThroughTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/bptt/LSTMBackPropagationThroughTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/example/GRUStockPricePredictionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/example/LSTMStockPricePredictionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/util/Activation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/util/LossFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/util/MatrixInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/rnn/util/SequenceModeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/SunSpots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/StockFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/StockSocketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/StockTrainingSetImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/TrainingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/stockmarket/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/timeseries/GenerateSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/timeseries/GenerateSineWave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/timeseries/GenerateTrainingSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/timeseries/TestTimeSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-contrib/src/main/java/org/neuroph/contrib/samples/timeseries/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/NeuralNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/Weight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/data/BufferedDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/data/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/data/DataSetRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/data/DataSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/data/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/events/LearningEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/events/LearningEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/events/NeuralNetworkEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/events/NeuralNetworkEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/events/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/exceptions/NeurophException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/exceptions/VectorSizeMismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/exceptions/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/And.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Difference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/EuclideanRBF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/InputFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Or.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/SumSqr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/WeightedSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/input/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/IterativeLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/LearningRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/SupervisedLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/UnsupervisedLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/error/ErrorFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/error/MeanAbsoluteError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/error/MeanSquaredError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/error/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/stop/MaxErrorStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/stop/MaxIterationsStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/stop/SmallErrorChangeStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/stop/StopCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/learning/stop/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Gaussian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Linear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Ramp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/RectifiedLinear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Sgn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Sigmoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Sin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Tanh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/TransferFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/Trapezoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/core/transfer/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/ClassifierEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/CrossValidationBak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/ErrorEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/Evaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/EvaluationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/FoldResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/KFoldCrossValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/ClassificationMetrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/ClassificationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/Classifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/ConfusionMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/McNemarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/eval/classification/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Adaline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/AutoencoderNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/BAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/CompetitiveNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/ConvolutionalNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/ElmanNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Hopfield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Instar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/JordanNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Kohonen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/MaxNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/MultiLayerPerceptron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/NeuroFuzzyPerceptron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Outstar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/Perceptron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/RBFNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/RectifierNeuralNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/SupervisedHebbianNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/UnsupervisedHebbianNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/ConvolutionalUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/DelayedConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/Dimension2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/Kernel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/CompetitiveLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/ConvolutionalLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/FeatureMapLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/FeatureMapsLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/InputLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/InputMapsLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/PoolingLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/layer/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/BiasNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/CompetitiveNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/DelayedNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/InputNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/InputOutputNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/ThresholdNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/neuron/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/comp/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/AntiHebbianLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/BackPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/BinaryDeltaRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/BinaryHebbianLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/CompetitiveLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/ConvolutionalBackpropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/DynamicBackPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/GeneralizedHebbianLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/HopfieldLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/InstarLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/KohonenLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/LMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/ManhattanPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/MomentumBackpropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/OjaLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/OutstarLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/PerceptronLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/QuickPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/RBFLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/ResilientPropagation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/SigmoidDeltaRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/SimulatedAnnealingLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/SupervisedHebbianLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/UnsupervisedHebbianLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/kmeans/Cluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/kmeans/KMeansClustering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/kmeans/KVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/knn/KNearestNeighbour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/learning/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/nnet/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/DataSetColumnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/DataSetStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/LayerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeuralNetworkCODEC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeuralNetworkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeuralNetworkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeuronFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeuronProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/Neuroph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/NeurophProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/TransferFunctionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/VectorParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/Benchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/BenchmarkSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/BenchmarkTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/BenchmarkTaskResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/MyBenchmarkTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/Stopwatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/benchmark/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/DecimalScaleNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/MaxMinNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/MaxNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/Normalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/RangeNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/ZeroMeanNormalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/norm/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/sample/Sampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/sample/SubSampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/data/sample/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/FileInputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/FileOutputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/IOHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/InputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/InputStreamAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/JDBCInputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/JDBCOutputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/NeurophInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/NeurophOutputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/OutputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/OutputStreamAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/URLInputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/URLOutputAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/io/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/plugins/PluginBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/plugins/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/DistortRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/GaussianRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/HeZhangRenSunUniformWeightsRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/NguyenWidrowRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/RangeRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/WeightsRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuroph-core/src/main/java/org/neuroph/util/random/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/CharExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OCRTextRecognition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OCRTraining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OcrHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OcrPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OcrSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/OcrUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/filter/OCRCropLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/filter/OCRExtractLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/properties/OCRProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/samples/RecognitionSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/samples/RecognizeLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/samples/TrainingSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/Letter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/OCRUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/WordPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/histogram/ImageHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/neuroph/ocr/util/histogram/OCRHistogram.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2QFHRQC7eJllBDF8zflm7RacMdQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/vgirard/Documents/IdeaProjects/neuroph/src/main/java/org/neuroph",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vgirard\Documents\IdeaProjects\neuroph\src\main\java\org\neuroph" />
+      <recent name="C:\Users\vgirard\Documents\IdeaProjects\neuroph\neuroph-contrib\src\main\java\org\neuroph" />
+      <recent name="C:\Users\vgirard\Documents\IdeaProjects\neuroph\neuroph-core\src\main\java\org\neuroph" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8846e01-254c-4cfa-bb33-93606344ca0e" name="Changes" comment="" />
+      <created>1684942402349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684942402349</updated>
+      <workItem from="1684942403381" duration="3255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
